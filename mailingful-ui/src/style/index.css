@@ -1,0 +1,49 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #FAFAFA;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+
+button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 0.5em;
+	border: 1px solid black;
+	font-size: 1rem;
+}
+
+button:hover, button:active {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+button+button {
+	margin-left: 0.5em;
+}
+
+input {
+	width: 100%;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-size: 1rem;
+	padding: 5px;
+	border-radius: 3px;
+	border: #ccc 1px solid;
+	margin-bottom: 5px;
+	box-shadow: inset 0px 0px 1px #ddd;
+}

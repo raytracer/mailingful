@@ -1,0 +1,14 @@
+server:
+  script:
+    - cd mailingful-server
+    - go generate
+    - env GOOS=linux CGO_ENABLED=0 go build -o main
+    - docker kill mailingful || true
+    - docker rm mailingful || true
+    - docker build -t mailingful:0.0.$CI_JOB_ID -t mailingful:0.0 .
+    - docker run -d -p 9876:9876 --net=roachnet --name=mailingful --restart=always mailingful:0.0.$CI_JOB_ID
+
+lambda: 
+  script:
+    - cd mailingful-lambda
+    - apex deploy

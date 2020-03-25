@@ -1,0 +1,21 @@
+.from {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.from select {
+    margin-left: 0.5em;
+}
+
+
+.formheading {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin: 0 5px 0 0  
+}

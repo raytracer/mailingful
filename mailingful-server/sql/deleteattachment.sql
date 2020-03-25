@@ -1,0 +1,1 @@
+DELETE FROM attachments WHERE MailId = $1 AND S3Key = $2;

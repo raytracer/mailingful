@@ -1,0 +1,12 @@
+.faq {
+	min-height: 100%;
+	max-width: 40em;
+	margin: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.faq h1 {
+	text-align: center;
+	font-size: 2.5rem;
+}
