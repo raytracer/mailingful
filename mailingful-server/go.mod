@@ -2,7 +2,7 @@ module mailingful.com/mailingful-server
 
 require (
 	github.com/aws/aws-sdk-go v1.16.11
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/dgrijalva/jwt-go v3.2.1
 	github.com/fortytw2/leaktest v1.3.0 // indirect
 	github.com/gin-contrib/cors v0.0.0-20181206035131-7c641a7a7dc5
 	github.com/gin-gonic/gin v1.7.0
